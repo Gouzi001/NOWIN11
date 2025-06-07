@@ -1,4 +1,4 @@
-These scripts are for everyone who's happy with their stable, working Windows 10 system — and tired of being nagged to upgrade or shown ads for things they never asked for.
+This scripts are for everyone who's happy with their stable, working Windows 10 system — and tired of being nagged to upgrade or shown ads for things they never asked for.
 No nags. No telemetry. No forced updates..
 
 🔧 WIN10NUUPDATE.ps1 — Windows 10 Update Suppression Script
@@ -14,11 +14,13 @@ Removes Microsoft Edge (if possible)
 Applies registry-based GPO locks
 Sets scheduled tasks to keep updates disabled
 
-⚠️ Must be run as Administrator
 💡 Recommended for hardened, stable Windows 10 systems that should not upgrade
+
+
 
 ♻️ ILOVEWIN11.ps1 — Restore Script
 This script reverts all changes made by WIN10NUUPDATE.ps1, restoring update functionality, telemetry services, and system files.
+Probably you will never need it as Windows 12 will be released soon.
 
 Key actions:
 Restores UpdateNotificationMgr.dll if backed up
